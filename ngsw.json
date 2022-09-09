@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1662725921903,
+  "timestamp": 1662726990925,
   "appData": {
     "version": "4.0.0",
     "notes": "Daten können jetzt auch offline eingesehen werden"
@@ -66,7 +66,7 @@
         "https://knooperz.github.io/MaterialSample/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.5bb881679f1db2f8.woff2",
         "https://knooperz.github.io/MaterialSample/index.html",
         "https://knooperz.github.io/MaterialSample/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsI.883d76c88a60913a.woff2",
-        "https://knooperz.github.io/MaterialSample/main.6e3e69479e705a2e.js",
+        "https://knooperz.github.io/MaterialSample/main.c7d60f6d82056ace.js",
         "https://knooperz.github.io/MaterialSample/manifest.webmanifest",
         "https://knooperz.github.io/MaterialSample/polyfills.45a7178ca07e32be.js",
         "https://knooperz.github.io/MaterialSample/runtime.52c4d0edcd5ecd00.js",
@@ -168,9 +168,9 @@
     "https://knooperz.github.io/MaterialSample/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "https://knooperz.github.io/MaterialSample/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.00086bcac4417b9f.woff2": "70810bf33663f990fe209514831d01b65cd13fe2",
     "https://knooperz.github.io/MaterialSample/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.5bb881679f1db2f8.woff2": "fe5e3340fc98a4edde8aa11658488df1c2739b19",
-    "https://knooperz.github.io/MaterialSample/index.html": "9b4e9ae83b419e65f8a77ed084a9b06fd12a057b",
+    "https://knooperz.github.io/MaterialSample/index.html": "381097999498e0ff1e758c5e48ed43ab85818d56",
     "https://knooperz.github.io/MaterialSample/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsI.883d76c88a60913a.woff2": "aca31391d24fafe72c3dce356318d594e20261c1",
-    "https://knooperz.github.io/MaterialSample/main.6e3e69479e705a2e.js": "2ea26ead107dccbe119337fe20478d418f8ec10e",
+    "https://knooperz.github.io/MaterialSample/main.c7d60f6d82056ace.js": "ba30caff5c080f5439fcdf567af692c80bc7760a",
     "https://knooperz.github.io/MaterialSample/manifest.webmanifest": "31abed7c58fb560753c5b2bfc3de50985066fefb",
     "https://knooperz.github.io/MaterialSample/polyfills.45a7178ca07e32be.js": "2971b81a2c6bae63e0fd6836fe4a9da727612c3d",
     "https://knooperz.github.io/MaterialSample/runtime.52c4d0edcd5ecd00.js": "04a6ac8d8dd256b87773a6e760b1c26c162c440f",
