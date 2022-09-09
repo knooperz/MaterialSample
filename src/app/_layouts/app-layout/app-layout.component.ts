@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Project, ProjectService } from './../../project.service';
+import { Component, OnInit } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
@@ -8,7 +9,8 @@ import { map, shareReplay } from 'rxjs/operators';
   templateUrl: './app-layout.component.html',
   styleUrls: ['./app-layout.component.scss']
 })
-export class AppLayoutComponent {
+export class AppLayoutComponent implements OnInit {
+  projects: Project[] = [];
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
@@ -16,6 +18,11 @@ export class AppLayoutComponent {
       shareReplay()
     );
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+  constructor(private breakpointObserver: BreakpointObserver, 
+    private projectService: ProjectService) {}
+
+  ngOnInit() {
+    this.projects = this.projectService.loadProjekts();
+  }
 
 }
